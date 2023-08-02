@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .bor,td,th{
+            
+            padding:10px;
+            padding-left: 20px;
+            padding-right: 50px;
+        } 
+        .for{
+            display:flex;
+            justify-content: center;
+        }
+        .bgimg{
+            background-image: url(/image/test.png);
+            background-size:contain;
+           
+            
+        }
+            span{
+background-color: rgb(139, 189, 239);
+            }
+        
+    </style>     
+</head>
+<body  >
+    
+    <h1 align="center" style=" background-color:rgb(139,189,239)">REGISTRATION FORM</h1><br>
+       <div class="bgimg">
+        <h2 align="center" ><span>SIGNUP HERE!!!</span></h2>
+        <form class="for">
+       
+        <fieldset style="background-color:rgb(139, 189, 239);">
+        
+        <table class="bor">
+      <tr><td ><label for="name"><b>NAME:</b> </label> </td>
+       <td> <input type="text" id="name" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        
+       <td > <label for="na"> <b>EMAIL:</b></label> </td>
+        <td><input type="email" id="na"></td></tr>
+        <tr><td><b>Password.:</b></td>
+            <td> <input type="password" > </td> </tr>
+        <tr><td><b>Phone no.:</b></td>
+       <td> <input type="phone" > </td> </tr>
+
+       <tr><td><b>Gender:</b></td>
+        <td> <input type="radio" name="gender">Male
+             <input type="radio" name="gender">Female
+         </td> </tr>
+
+         <tr><td><b>Date of birth:</b></td>
+            <td> <input type="date" > </td> </tr>
+            <tr><td><b>course:</b></td>
+                <td><select>
+                    <option>select option</option>
+                    <option>Btech</option>
+                    <option>Mtech</option>
+                    <option>MBA</option>
+                </select> </td> </tr>
+                <tr><td><b>Qualification:</b></td>
+                    <td><select>
+                        <option>select option</option>
+                        <option>Graduate</option>
+                        <option>postgraduate</option>
+                    </select> </td> </tr>
+                    <tr><td><b>Address:</b></td>
+                        <td><textarea rows="5" col="17" placeholder="Enter your Address"></textarea>
+                         </td> </tr>
+                         <tr>
+                            <td> <input type="SUBMIT" value="SUBMIT" >
+                               <td> <input type="RESET" value="RESET"></td>
+                             </td> </tr>
+
+
+    </table>
+
+</fieldset>
+    </form> 
+    </div>
+  
+</body>
+</html>
